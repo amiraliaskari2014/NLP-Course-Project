@@ -1,0 +1,58 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python caches/build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+secrets.*
+
+# Notebook/game outputs
+rag_game_runs/
+test3_rag_game_runs/
+speech_game_audio/
+*.log
+
+# Audio/video artifacts
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Model/checkpoint/vector-index artifacts
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.faiss
+*.index
+
+# Local data/cache folders
+.cache/
+cache/
+tmp/
+temp/
+wandb/
+runs/
