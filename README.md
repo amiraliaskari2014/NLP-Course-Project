@@ -501,3 +501,6 @@ serper_key = os.getenv("SERPER_API_KEY")
 PoliMillionaire Poliglot is a multi-strategy AI quiz agent. It uses one shared Qwen 7B model for general reasoning and planning, a Qwen Math model for mathematical questions, Whisper for speech input, Wikipedia/DuckDuckGo/Serper/Bing for retrieval, BM25 and semantic reranking for History, FAISS for News backup retrieval, and SymPy for exact mathematical computation.
 
 The result is a complete competition system that can answer text and speech questions across Entertainment, History, Science, Maths, Philosophy/Psychology, and News under timed game conditions.
+
+## Contributors
+Amirali Askari
